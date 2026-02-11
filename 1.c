@@ -31,7 +31,7 @@ int main() {
             }
         }
 
-        // สลับแถวปัจจุบันกับแถว pivotRow (ใช้ double สำหรับ temp)
+        // สลับแถวปัจจุบันกับแถว pivotRow 
         for (int k = i; k <= n; k++) {
             double temp = mat[i][k];
             mat[i][k] = mat[pivotRow][k];
